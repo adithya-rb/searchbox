@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		9623FCE81BC100CA00086620 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9623FCE71BC100CA00086620 /* AppDelegate.swift */; };
-		9623FCEA1BC100CA00086620 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9623FCE91BC100CA00086620 /* ViewController.swift */; };
 		9623FCED1BC100CA00086620 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9623FCEB1BC100CA00086620 /* Main.storyboard */; };
 		9623FCEF1BC100CA00086620 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9623FCEE1BC100CA00086620 /* Assets.xcassets */; };
 		9623FCF21BC100CA00086620 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9623FCF01BC100CA00086620 /* LaunchScreen.storyboard */; };
 		9623FCFD1BC100CA00086620 /* searchboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9623FCFC1BC100CA00086620 /* searchboxTests.swift */; };
 		9623FD081BC100CA00086620 /* searchboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9623FD071BC100CA00086620 /* searchboxUITests.swift */; };
+		9623FD161BC1015400086620 /* searchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9623FD151BC1015400086620 /* searchTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		9623FCE41BC100CA00086620 /* searchbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = searchbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9623FCE71BC100CA00086620 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9623FCE91BC100CA00086620 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9623FCEC1BC100CA00086620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9623FCEE1BC100CA00086620 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9623FCF11BC100CA00086620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		9623FD031BC100CA00086620 /* searchboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = searchboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9623FD071BC100CA00086620 /* searchboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchboxUITests.swift; sourceTree = "<group>"; };
 		9623FD091BC100CA00086620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9623FD151BC1015400086620 /* searchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				9623FCE71BC100CA00086620 /* AppDelegate.swift */,
-				9623FCE91BC100CA00086620 /* ViewController.swift */,
+				9623FD151BC1015400086620 /* searchTableViewController.swift */,
 				9623FCEB1BC100CA00086620 /* Main.storyboard */,
 				9623FCEE1BC100CA00086620 /* Assets.xcassets */,
 				9623FCF01BC100CA00086620 /* LaunchScreen.storyboard */,
@@ -255,8 +255,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9623FCEA1BC100CA00086620 /* ViewController.swift in Sources */,
 				9623FCE81BC100CA00086620 /* AppDelegate.swift in Sources */,
+				9623FD161BC1015400086620 /* searchTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
